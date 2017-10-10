@@ -14,12 +14,12 @@ export default new Vuex.Store({
     // ajax loader
     showLoader: false,
     // selected product
-    product: {},
+    post: {},
     // all products
     products: [],
     // all manufacturers
     manufacturers: []
   },
-  getters: Object.assign({}, productGetters, manufacturerGetters)
+  getters: Object.assign({}, productGetters, manufacturerGetters),
   mutations: Object.assign({}, productMutations, cartMutations, manufacturerMutations)
 })

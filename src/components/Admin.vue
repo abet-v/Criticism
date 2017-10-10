@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="admin-page">
     <div class="title">
       <h1>{{msg}}</h1>
     </div>
